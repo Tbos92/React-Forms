@@ -1,1 +1,10 @@
-import './App.css'
+import "./App.css";
+import SignUpForm from "./components/SignUpForm";
+import Authenticate from "./components/Authenticate";
+
+export default function App() {
+  <>
+    <Authenticate />
+    <SignUpForm />
+  </>;
+}
